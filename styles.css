@@ -108,6 +108,7 @@ body {
     will-change: transform; /* Performance hint for animation */
 }
 
+
 .blob1 {
     width: 400px;
     height: 400px;
@@ -511,15 +512,31 @@ body {
 
 /* In style.css */
 
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%; /* Aspect ratio for iframe (e.g., 4:3). Adjust if your model UI is different */
+    height: 0;
+    overflow: hidden;
+    border-radius: calc(var(--border-radius) - 5px); /* Inner radius */
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 @media (max-width: 768px) {
     .iframe-container {
         padding-bottom: 0; /* Remove aspect ratio padding */
         height: 500px;     /* Set a fixed height for mobile */
         min-height: 0;     /* Reset min-height if set globally */
     }
-    /* The iframe itself is already width:100%, height:100% of its parent */
 }
-
 
 /* --- CTA Section --- */
 .cta-section {
