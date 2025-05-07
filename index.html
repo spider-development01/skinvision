@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinVision - AI Skin Disease Detection</title>
+    <meta name="description" content="SkinVision uses AI to help you detect skin diseases early. Scan your skin now for a healthier tomorrow.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-branding">
+                <img src="logo.svg" alt="SkinVision Logo" class="logo">
+                SkinVision
+            </a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                    <li class="nav-item"><a href="#model-display" class="nav-link">AI Scan</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link cta-button-nav">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section section">
+            <div class="container">
+                <h1 class="gradient-text">Your Skin's Future, Revealed by AI.</h1>
+                <p class="subtext">Early detection can save lives. SkinVision empowers you with cutting-edge AI to understand your skin better and take proactive steps towards your health.</p>
+                <a href="#model-display" class="cta-button">Scan Your Skin Now</a>
+            </div>
+        </section>
+
+        <section id="features" class="features-section section">
+            <div class="container">
+                <h2 class="section-title gradient-text">Platform Capabilities</h2>
+                <div class="features-grid">
+                    <div class="feature-card animate-on-scroll">
+                        <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-10 w-10 text-[#E46C0A]"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg></div>
+                        <h3>AI-Powered Analysis</h3>
+                        <p>Utilizes advanced machine learning algorithms to analyze skin lesions with high accuracy.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll">
+                        <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock h-10 w-10 text-[#E46C0A]"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+                        <h3>Instant Results</h3>
+                        <p>Get preliminary insights in seconds, helping you decide on next steps quickly.</p>
+                    </div>
+
+                    <div class="feature-card animate-on-scroll">
+                        <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone h-10 w-10 text-[#E46C0A]"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg></div>
+                        <h3>Accessible Anywhere</h3>
+                        <p>Use our platform on any device, anytime, anywhere. All you need is a camera and internet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works-section section">
+            <div class="container">
+                <h2 class="section-title gradient-text">How It Works</h2>
+                <div class="steps-container">
+                    <div class="step animate-on-scroll">
+                        <div class="step-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-camera h-12 w-12 text-[#E46C0A]"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path><circle cx="12" cy="13" r="3"></circle></svg>
+                        </div>
+                        <h3>Capture</h3>
+                        <p>Take a clear, well-lit photo of the skin area you're concerned about using your device's camera.</p>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search h-12 w-12 text-[#E46C0A]"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+                        </div>
+                        <h3>Upload</h3>
+                        <p>Securely upload your image to the SkinVision platform through our intuitive interface.</p>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text h-12 w-12 text-[#E46C0A]"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                        </div>
+                        <h3>Analyze</h3>
+                        <p>Our AI model processes the image, analyzing patterns and characteristics indicative of various skin conditions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="model-display" class="model-display-section section">
+            <div class="container">
+                <h2 class="section-title gradient-text">Try Our AI Model</h2>
+                <p class="section-subtitle">Experience the power of SkinVision firsthand. Use the tool below to scan a skin lesion. <br><strong>Note: This is a demo. For actual diagnosis, always consult a healthcare professional.</strong></p>
+                <div class="model-card animate-on-scroll">
+                    <div class="iframe-container">
+                        <div class="loading-indicator">
+                            <div class="spinner"></div>
+                            <p>Loading AI Model...</p>
+                        </div>
+                        <!-- REPLACE with your actual deployed model URL -->
+                        <iframe 
+                            src="http://127.0.0.1:3000/Skin-vision-main (1)/Skin-vision-main/index.html" 
+                            title="SkinVision AI Model"
+                            allow="camera; microphone; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            frameborder="0"
+                            loading="lazy"
+                            onload="this.previousElementSibling.style.display='none'; this.style.opacity='1';"
+                            onerror="this.previousElementSibling.innerHTML = '<p>Error loading model. Please try again later.</p>';"
+                            style="opacity:0; transition: opacity 0.5s;"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta-section section">
+            <div class="container">
+                <h2 class="gradient-text">Ready to Take Control of Your Skin Health?</h2>
+                <p>Join SkinVision for proactive skin monitoring. It's fast, easy, and could make all the difference.</p>
+                <a href="#model-display" class="cta-button">Scan Your Skin Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <div class="footer-branding">
+                <img src="logo.svg" alt="SkinVision Logo" class="logo">
+                SkinVision
+                <p class="footer-tagline">AI-Powered Skin Health Monitoring</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#model-display">AI Scan</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:info@skinvision.proton.me">info@skinvision.proton.me</a></p>
+                <p>Discord: <a href="https://discord.gg/BjeznEJ4ma">Click to Join now</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="currentYear"></span> SkinVision. All rights reserved. This platform is for informational purposes and not a substitute for professional medical advice.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
